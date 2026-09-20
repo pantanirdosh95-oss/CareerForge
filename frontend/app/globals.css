@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  font-size: 30px;
+}
+.hero{
+  text-align: center;
+  padding: 150px 20px;
+}
+.hero button{
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
