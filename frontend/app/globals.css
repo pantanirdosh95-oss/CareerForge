@@ -37,4 +37,19 @@ h1 {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: 1s;
+}
+.hero button:hover {
+  background-color: yellow;
+  color: black;
+  transform: scale(1.05);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 500px;
 }
