@@ -30,6 +30,9 @@ h1 {
 .hero{
   text-align: center;
   padding: 150px 20px;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
 }
 .hero button{
   padding: 12px 24px;
@@ -45,11 +48,30 @@ h1 {
   transform: scale(1.05);
 }
 main{
+  display: grid ;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+/* main{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 50px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   min-height: 500px;
+} */
+
+/*
+@media (max-width: 900px){
+  main{
+    flex-direction: column;
+  }
 }
+
+@media (max-width: 600px){
+  main{
+    gap : 20px;
+  }
+}
+*/
