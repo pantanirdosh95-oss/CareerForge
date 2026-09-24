@@ -46,6 +46,7 @@ h1 {
   transform: scale(1.05);
 }
 .test{
+  display: inline-block;
   background-color: lightblue;
 }
 /*
